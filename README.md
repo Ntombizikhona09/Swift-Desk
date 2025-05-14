@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# cssdb [<img src="https://cssdb.org/images/cssdb.svg" alt="cssdb logo" width="90" height="90" align="right">][cssdb]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![NPM Version][npm-img]][npm-url]
+[![Build Status][cli-img]][cli-url]
 
-## Available Scripts
+[cssdb] is a comprehensive list of CSS features and their positions in
+the process of becoming implemented web standards.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+Did you come here to update the status of a CSS feature or add a new one?
+Quick, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Did you come here to learn about the stages? Quick, read [STAGES.md](STAGES.md).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+[cssdb] ranks CSS features by stages that reflect the real-life stability of
+new CSS features.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can read an [inside view of the CSSWG] to learn about the official
+(and unofficial) development stages of CSS specifications. In reality,
+specifications and browser implementations happen out of sync. For example,
+there are stable CSS features missing in all browsers, while other CSS features
+developed outside the [CSSWG] have appeared in browsers behind flags. This is
+too ambiguous for the web development community, and a more accountable process
+is desired.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[cli-img]: https://github.com/csstools/cssdb/actions/workflows/test.yml/badge.svg
+[cli-url]: https://github.com/csstools/cssdb/actions/workflows/test.yml
+[cssdb]: https://github.com/csstools/cssdb
+[CSSWG]: https://wiki.csswg.org/spec
+[inside view of the CSSWG]: https://fantasai.inkedblade.net/weblog/2011/inside-csswg/process
+[npm-img]: https://img.shields.io/npm/v/cssdb.svg
+[npm-url]: https://www.npmjs.com/package/cssdb
